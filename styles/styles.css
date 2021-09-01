@@ -32,7 +32,7 @@ body {
     flex-grow: 1;
     background-image: url(../images/bg_img.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right center;
 }
 
 .top_button {
@@ -107,7 +107,8 @@ body {
 .card_box {
     display: flex;
     justify-content: space-between;
-    padding: 64px 0;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .card {
@@ -137,7 +138,7 @@ body {
  .project_2_img {
      display: flex;
      justify-content: space-between;
-     margin: 32px auto 112px;
+     margin-top: 32px;
  }
 
 .footer_info {
@@ -152,23 +153,48 @@ body {
 
 .project {}
 
-project_image {
+.project_image {
     width: 100%;
 }
 
 .project_item {
-    position: absolute;
+    position: relative;
+    flex-grow: 1;
 }
 
-.project_text {
+.project_item_margin {
+    margin-right: 32px;
+}
+
+.project_text_up {
     font-size: 32px;
     line-height: 46px;
     text-align: right;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-    position: absolute;
     top: 64px;
     right: 64px;
+    position: absolute;
+}
+
+.project_text_bottom {
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    top: 32px;
+    left: 32px;
+    position: absolute;
+}
+
+.footer_head_text {
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 91px;
+}
+
+.container_footer {
+    background-color: #316099;
 }
 
 .heading_contacts {

@@ -83,6 +83,15 @@ body {
     margin-bottom: 32px;
 }
 
+.heading2 {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
 .heading3 {
     font-size: 36px;
     text-align: center;
@@ -141,9 +150,25 @@ body {
      margin-top: 32px;
  }
 
+.footer {
+    background: #316099;
+    padding-top: 91px;
+    padding-bottom: 64px;
+    margin-top: 112px;
+}
+
+.footer_top {
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .footer_info {
     display: flex;
     justify-content: space-between;
+    margin-top: 64px;
+    padding: 0;
 }
 
 .main {
@@ -166,7 +191,7 @@ body {
     margin-right: 32px;
 }
 
-.project_text_up {
+.project_text {
     font-size: 32px;
     line-height: 46px;
     text-align: right;
@@ -177,24 +202,61 @@ body {
     position: absolute;
 }
 
-.project_text_bottom {
-    font-size: 28px;
-    line-height: 46px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
+.project_text_mini {
     top: 32px;
     left: 32px;
-    position: absolute;
+    right: auto;
+    text-align: left;
 }
 
 .footer_head_text {
+    width: 340px;
     text-align: left;
-    padding-left: 3px;
-    padding-top: 91px;
+    color: #FFFF;
+    margin-bottom: 32px;
 }
 
-.container_footer {
-    background-color: #316099;
+.text_footer {
+    color: #FFFFFF;
+}
+
+.footer_button {
+    background: #5A98D0;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 15px 80px;
+    text-decoration: none;
+}
+
+hr {
+    opacity: 0.4;
+}
+
+.footer_list {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    flex-grow: 1;
+    flex-basis: 33.3333%;
+    display: flex;
+    margin-right: 32px;
+    left: 113px;
+}
+
+.footer_copy {
+    margin-top: 64px;
+}
+
+.copy_text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
 }
 
 .heading_contacts {
